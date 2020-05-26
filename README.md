@@ -6,6 +6,24 @@
 
 <img src="https://vectr.com/adion81/c8R4t9Gpm.svg?width=500&height=280&select=c8R4t9Gpmpage0" alt="request response"  width="500px"/>
 
+<ol>
+    <li>User types url into browser.</li>
+    <li>Http request to the server.</li>
+    <li>Server gathers data and files</li>
+    <li>Server responses files and data to browser</li>
+    <li>Browser displays data and files.</li>
+</ol>
+<details>
+    <summary>COMMON HTTP VERBS</summary>
+    <ul>
+        <li>GET - Gets Data</li>
+        <li>POST - Creates Data</li>
+        <li>PUT - Updating Data</li>
+        <li>PATCH - Updating Data</li>
+        <li>DELETE - Deleting Data</li>
+    </ul>
+</details>
+
 ## HTML
 
 ## CSS
