@@ -92,11 +92,14 @@ Every HTML element has an opening tag `<h1>` and a closing tag `</h1>`
         <input type="submit" />
     </form>
 
-    
+    <!-- img tags are used to display images -->
+    <img src="image.png" alt="Describe Image">
 </body>
 </html>
 ```
-HTML tags can have attributes that allow us add additional characteristics.
+HTML tags can have attributes that allow us add additional characteristics.<br>
+<br>
+img tags have the attribute of `src` to link image files to the tag.
 
 ## CSS
 
