@@ -26,6 +26,78 @@
 
 ## HTML
 
+Hyper-Text Markup Language<br>
+<br>
+Used to organize and display content on the browser.
+
+<details>
+    <summary>3 Main Parts to HTML</summary>
+    <ul>
+        <li>html - defines the file as an html document.</li>
+        <li>head - contains html,links, and info about the document</li>
+        <li>body - contains html we see on the browser</li>
+    </ul>
+</details>
+
+### Parent - Child - Sibling
+HTML tags can either live next to each other `Siblings`<br>
+Or they can live inside one another `Parent/Child`<br>
+
+```html
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Ill Tempered Penguins</title>
+    </head>
+    <!-- body and head are sibling tags -->
+    <body>
+        <!-- h1 is a child of body -->
+        <h1>Ill Tempered Penguins</h1>
+    </body>
+    </html>
+```
+Every HTML element has an opening tag `<h1>` and a closing tag `</h1>`
+
+### HTML Tags
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hello World</title>
+</head>
+<body>
+    <!-- heading tags range from h1 to h6 -->
+    <h1>Awesome Site</h1>
+
+    <!-- p tags are used to display simple text -->
+    <p>This is some information.</p>
+
+    <!-- unorder lists will display a list items with bullet points -->
+    <ol>
+        <li>First</li>
+        <li>Second</li>
+        <li>Third</li>
+        <li>Fourth</li>
+    </ol>
+
+    <!-- forms are used so that the user can send info to the server. -->
+    <form action="#" method="POST">
+        <label for="name" >Name: </label>
+        <input id="name" name="name" type="text" />
+        <input type="submit" />
+    </form>
+
+    
+</body>
+</html>
+```
+HTML tags can have attributes that allow us add additional characteristics.
+
 ## CSS
 
 ## JavaScript
