@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ill Tempered Penguins</title>
+</head>
+<body>
+    <h1>Ill Tempered Penguins</h1>
+    <main>
+        <div id="ice-box" class="theme-box">
+            <div class="p-card">
+                <h3>Baby Face</h3>
+                <img src="https://4.bp.blogspot.com/-bhxZWU5aoRk/VYG5mQk97xI/AAAAAAAApzE/1jKETmw8ctg/s1600/00000.jpg" alt="Baby Face">
+
+            </div>
+            <div class="p-card">
+                <h3>Robo-Penguin 5000</h3>
+                <img src="https://www.kindpng.com/picc/m/761-7617908_the-scary-gary-on-a-player-card-penguin.png" alt="Robo-Penguin 5000">
+
+            </div>
+            <div class="p-card">
+                <h3>Buzz</h3>
+                <img src="https://media.istockphoto.com/photos/3d-penguin-with-a-chainsaw-picture-id520444083?k=6&m=520444083&s=612x612&w=0&h=XPr672mCGDydn64VvMlUYjo5neAItKsgKCom83-UMgQ=" alt="Robo-Penguin 5000">
+
+            </div>
+            <div class="p-card">
+                <h3>Phil Bourque</h3>
+                <img src="https://i.pinimg.com/originals/ea/bb/8c/eabb8c9027bb6747ed86595444fb1db1.jpg" alt="Phil Bourque">
+
+            </div>
+        </div>
+        <div id="info" class="theme-box">
+            <h2>About</h2>
+            <p>Wormfish, lancetfish mahseer Atlantic cod, riffle dace Redfin perch; Jack Dempsey, freshwater herring, longfin zebra pleco. Ocean perch goldspotted killifish Canthigaster rostrata zebra trout yellowtail horse mackerel.</p>
+            <p>Longfin dragonfish jawfish southern grayling mackerel. Alaska blackfish paperbone priapumfish. Airsac catfish Pacific hake, opaleye chimaera white croaker false trevally dragonfish, Oriental loach glass knifefish swamp-eel sea devil triplespine Atlantic salmon. Pike eel archerfish thresher shark ballan wrasse merluccid hake rudd treefish summer flounder golden shiner?</p>
+            <div>
+                <h3>Penguin Favorite Foods</h3>
+                <ol>
+                    <li>Salmon</li>
+                    <li>Tuna</li>
+                    <li>Philly Cheese Steak</li>
+                </ol>
+            </div>
+        </div>
+    </main>
+    <article class="theme-box">
+        <form onsubmit="handleSubmit(event)">
+            <h2>Enter Your Info Here: </h2>
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name" placeholder="Benny Bob McBob" />
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" placeholder="bob@mcbob.com" />
+            <input type="submit" value="Submit" />
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+            </tbody>
+        </table>
+    </article>
+    <script src="index.js" async></script>
+</body>
+</html>

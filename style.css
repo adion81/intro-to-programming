@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-image: url("https://cdn2.vectorstock.com/i/1000x1000/05/81/blue-ice-background-vector-11000581.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    margin: 2% auto;
+    padding: 1%;
+    text-align: center;
+    width: 40%;
+    border: 5px dashed blue;
+    border-radius: 10px;
+    background-color: rgba(245, 241, 28, 0.76);
+}
+main{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.theme-box{
+    border: 5px dashed blue;
+    border-radius: 10px;
+    background-color: rgba(245, 241, 28, 0.76);
+}
+#ice-box{
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+h3{
+    padding: 10px;
+}
+.p-card{
+    text-align: center;
+    background-color: blue;
+    margin-bottom: 15px;
+    color: whitesmoke;
+    border-radius: 10px;
+    width: 45%;
+    border: 2px solid black;
+    height: 200px;
+    overflow: hidden;
+}
+.p-card img{
+    width: 100%;
+}
+
+#info{
+    width: 45%;
+    padding: 15px;
+}
+h2,h3{
+    text-align: center;
+}
+p,ol{
+    margin: 10px;
+    padding: 10px;
+    background-color: blue;
+    color: whitesmoke;
+}
+li{
+    margin-left: 30px;
+}
+article{
+    width: 95%;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    font-size: 100%;
+}
+input:last-of-type{
+    background-color: blue;
+    color: whitesmoke;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow:2px 2px black;
+}
+table,th,td{
+    width: 45%;
+    border: 2px solid whitesmoke;
+    background-color: blue;
+    color: whitesmoke;
+}
+
+th,td{
+    color: yellow;
+    padding: 5px;
+}
