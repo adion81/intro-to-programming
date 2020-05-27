@@ -20,6 +20,7 @@ h1{
     border-radius: 10px;
     background-color: rgba(245, 241, 28, 0.76);
 }
+
 main{
     display: flex;
     justify-content: space-evenly;
@@ -81,7 +82,7 @@ article{
 input{
     font-size: 100%;
 }
-input:last-of-type{
+input:last-of-type,h1 button{
     background-color: blue;
     color: whitesmoke;
     border-radius: 5px;

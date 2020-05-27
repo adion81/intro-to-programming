@@ -77,7 +77,7 @@ Every HTML element has an opening tag `<h1>` and a closing tag `</h1>`
     <!-- p tags are used to display simple text -->
     <p>This is some information.</p>
 
-    <!-- unorder lists will display a list items with bullet points -->
+    <!-- unordered lists will display a list items with bullet points -->
     <ol>
         <li>First</li>
         <li>Second</li>
@@ -102,6 +102,54 @@ HTML tags can have attributes that allow us add additional characteristics.<br>
 img tags have the attribute of `src` to link image files to the tag.
 
 ## CSS
+
+Cascading Style Sheets<br>
+<br>
+We use CSS to style the HTML document.<br>
+<br>
+It's like a waterfall the cascades styling on all of our html elements, and we can select certain elements with a selector.
+
+```css
+
+p{
+    color: white;
+    background-color: blue;
+}
+```
+
+Above is an example of some CSS code. The `p` tells the browser that all p tags will have this styling.
+<br>
+<br>
+But what if we don't want to style every p tag in the html document?<br>
+<br>
+We can give the html tags attributes of `class` or `id` to narrow down the CSS selection.
+
+```html
+
+    <body>
+        <p class="blue">Some text here</p>
+        <p >Some text here</p>
+        <p class="blue">Some text here</p>
+        <p id="special">Some text here</p>
+        <p class="blue">Some text here</p>
+    </body>
+```
+
+```css
+    /* use the "." to select classes */
+    .blue{
+        color: white;
+        background-color: blue;
+    }
+
+    /* use the "#" to select ids */
+    #special{
+        color: red;
+        background-color: yellow;
+    }
+
+```
+
 
 ## JavaScript
 

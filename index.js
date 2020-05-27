@@ -1,4 +1,5 @@
-
+var likes = 0;
+document.getElementById('likes').innerHTML = likes;
 
 function handleSubmit(e){
     e.preventDefault();
@@ -15,4 +16,9 @@ function handleSubmit(e){
     table.appendChild(row);
     inputName.value = "";
     inputEmail.value = "";
+}
+
+function clickToLike(){
+    likes ++;
+    document.getElementById('likes').innerHTML = likes;
 }
