@@ -2,6 +2,18 @@
 
 <img src="https://images.squarespace-cdn.com/content/v1/55085720e4b0813599644fae/1498146542463-REMHTKUIMRSCKC11K9PT/ke17ZwdGBToddI8pDm48kArBMn8fAWELGenCydTjAbxZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwDoVfJBUjrBd4N4KbRpQUq5mg9_a8rivMlNvj9QRlugGYc1J3inpxLnXdbVi1x-yQ/image-asset.png" alt="Coding Dojo" width="400px"/>
 
+### What we will be building
+
+<img src="https://github.com/adion81/intro-to-programming/blob/master/img/illTemperedPenguins.png" alt="Ill Tempered Penguins" width="500px" />
+
+##### Img links
+
+<p>https://4.bp.blogspot.com/-bhxZWU5aoRk/VYG5mQk97xI/AAAAAAAApzE/1jKETmw8ctg/s1600/00000.jpg</p><br>
+<p>https://www.kindpng.com/picc/m/761-7617908_the-scary-gary-on-a-player-card-penguin.png</p><br>
+<p>https://media.istockphoto.com/photos/3d-penguin-with-a-chainsaw-picture-id520444083?k=6&m=520444083&s=612x612&w=0&h=XPr672mCGDydn64VvMlUYjo5neAItKsgKCom83-UMgQ=</p><br>
+<p>https://www.si.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTY4MDA3NDUyMjczNDg1MTg0/penguins-evgeni-malkin-injuryjpg.jpg</p><br>
+<p>https://cdn2.vectorstock.com/i/1000x1000/05/81/blue-ice-background-vector-11000581.jpg</p>
+
 ## Request Response Cycle
 
 <img src="https://vectr.com/adion81/c8R4t9Gpm.svg?width=500&height=280&select=c8R4t9Gpmpage0" alt="request response"  width="500px"/>
@@ -230,4 +242,5 @@ shuffle(numArr);
 <a href="https://www.w3schools.com/" target="_blank">W3 Schools</a><br>
 <a href="https://flexboxfroggy.com/" target="_blank">Flex Box Froggy</a><br>
 <a href="https://flukeout.github.io/" target="_blank">CSS Diner</a><br>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">All Things JavaScript</a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">All Things JavaScript</a><br>
+<a href="https://codepen.io/adion81/pen/GRpaZPZ" target="_blank">Ill Tempered Penguings on Code Pen</a>
