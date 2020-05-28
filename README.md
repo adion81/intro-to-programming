@@ -152,5 +152,75 @@ We can give the html tags attributes of `class` or `id` to narrow down the CSS s
 
 
 ## JavaScript
+JavaScript is the language of the internet, its also a dynamically typed language.
 
+### Variables
 
+<details>
+<summary>Primitive Variables</summary>
+<ul>
+    <li>integers - var num = 10</li>
+    <li>strings - var name = "Mr. Nibbles"</li>
+    <li>boolean - var isWorking = true</li>
+</ul>
+</details>
+
+<summary>Basic Data Sets</summary>
+<ul>
+    <li>arrays - var arr = [15,true,"Hello World"]</li>
+    <li>objects - var obj = {name:"Adrien",age:false}</li>
+</ul>
+</details>
+
+### Loops
+
+Loops are a way we run lines of code a given amount of times.
+
+```js
+for(var i = 0; i < 10; i++){
+    console.log("Hello " + i);
+}
+
+```
+
+### Conditionals
+
+We can write conditionals for something to happen if a certain thing is true or false.
+
+```js
+for(var i = 0; i < 10; i++){
+    if(i % 2 === 1){
+        //This will run if i is an odd number.
+        console.log("Odd " + i);
+    }
+    else{
+        //This will run if i is not an odd number.
+        console.log("Even " + i)
+    }
+}
+
+```
+
+### Functions
+
+Functions are a way we can reuse a peice of code over and over again.<br>
+<br>
+Say we wanted to randomly mix up the elements in an array.
+
+```js
+var numArr = [1,2,3,4,5,6];
+
+// We define the function here
+function shuffle(arr){
+    for(var i =0; i < arr.length; i++){
+        var rand = Math.floor(Math.random() * arr.length - 1);
+        var temp = arr[i];
+        arr[i] = arr[rand];
+        arr[rand] = temp;
+    }
+}
+
+// We call the function here.  This is when the function and code inside of it actually run.
+shuffle(numArr);
+
+```
