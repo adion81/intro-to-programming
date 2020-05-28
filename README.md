@@ -224,3 +224,8 @@ function shuffle(arr){
 shuffle(numArr);
 
 ```
+
+# ADDITIONAL RESOURCES
+
+<a href="https://www.w3schools.com/">W 3 Schools</a>
+<a href="https://flexboxfroggy.com/">Flex Box Froggy</a>
