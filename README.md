@@ -227,5 +227,7 @@ shuffle(numArr);
 
 # ADDITIONAL RESOURCES
 
-<a href="https://www.w3schools.com/">W 3 Schools</a>
-<a href="https://flexboxfroggy.com/">Flex Box Froggy</a>
+<a href="https://www.w3schools.com/" target="_blank">W3 Schools</a><br>
+<a href="https://flexboxfroggy.com/" target="_blank">Flex Box Froggy</a><br>
+<a href="https://flukeout.github.io/" target="_blank">CSS Diner</a><br>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">All Things JavaScript</a>
